@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.speakup">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/speakicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SPEAKUP"
+        tools:targetApi="31">
+
+        <activity android:name=".languageactivity"
+            android:exported="false"/>
+
+
+        <activity android:name=".Contact"
+            android:exported="false"/>
+
+        <activity
+            android:name=".gamelayout"
+            android:exported="false" />
+        <activity
+            android:name=".Homescreen"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+
+        <activity android:name=".speakingactivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".IntroductoryActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".com.app.kids.activity.SplashScreen"/>
+        <activity android:name=".com.app.kids.activity.MainActivity" />
+        <activity android:name=".com.app.kids.activity.ColorChose" />
+        <activity android:name=".com.app.kids.activity.Drawing" />
+        <activity android:name=".com.app.kids.activity.MyWorkShow" />
+
+<!--        <activity-->
+<!--            android:name=".org.uncopyrightedapps.games.memory_wod.activities.MainActivity"/>-->
+<!--        <activity-->
+<!--            android:name=".org.uncopyrightedapps.games.memory_wod.activities.PlayGameActivity"/>-->
+<!--        <activity-->
+<!--            android:name=".org.uncopyrightedapps.games.memory_wod.activities.AddHighScoreActivity"/>-->
+<!--        <activity-->
+<!--            android:name=".org.uncopyrightedapps.games.memory_wod.activities.ViewScoresActivity"/>-->
+
+        <activity
+            android:name=".org.uncopyrightedapps.games.memory_wod.activities.MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:label="@string/title_activity_play_game">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".org.uncopyrightedapps.games.memory_wod.activities.PlayGameActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_play_game"
+            android:parentActivityName=".org.uncopyrightedapps.games.memory_wod.activities.MainActivity" />
+        <activity
+            android:name=".org.uncopyrightedapps.games.memory_wod.activities.AddHighScoreActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_add_high_score"
+            android:parentActivityName=".org.uncopyrightedapps.games.memory_wod.activities.MainActivity"
+
+            android:windowSoftInputMode="stateVisible">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.uncopyrightedapps.games.memory_wod.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".org.uncopyrightedapps.games.memory_wod.activities.ViewScoresActivity"
+            android:label="@string/title_activity_view_scores"
+            android:parentActivityName=".org.uncopyrightedapps.games.memory_wod.activities.MainActivity"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.uncopyrightedapps.games.memory_wod.activities.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
