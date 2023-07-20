@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white2"
+    android:id="@+id/mainLayout"
+    tools:context=".org.uncopyrightedapps.games.memory_wod.activities.MainActivity"
+    >
+
+    <TextView
+        android:id="@+id/mainTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/anton"
+        android:letterSpacing="0.05"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/SPEAKUP"
+        android:textAlignment="center"
+        android:textColor="@color/orange1"
+        />
+
+    <TextView
+        android:id="@+id/subTitle"
+        android:layout_below="@id/mainTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/msg_choose_game_type"
+        />
+
+    <Button
+        android:id="@+id/noBrainButton"
+        android:layout_below="@id/subTitle"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/button_game_type_no_brain"
+        android:visibility="gone"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/easyButton"
+        android:layout_below="@id/noBrainButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:background="@drawable/button_bg"
+        android:layout_centerHorizontal="true"
+        android:text="@string/button_game_type_easy"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/mediumButton"
+        android:layout_below="@id/easyButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_bg"
+        android:layout_centerHorizontal="true"
+        android:text="@string/button_game_type_medium"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/hardButton"
+        android:layout_below="@id/mediumButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_bg"
+        android:text="@string/button_game_type_hard"/>
+
+    <TextView
+        android:id="@+id/chooseGraphics"
+        android:layout_below="@id/hardButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/msg_choose_graphics"
+        />
+
+    <Spinner
+        android:id="@+id/graphicsSpinner"
+        android:layout_below="@id/chooseGraphics"
+        android:layout_centerHorizontal="true"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/viewScoresButton"
+        android:layout_below="@id/graphicsSpinner"
+        android:layout_marginTop="25dp"
+        android:layout_width="250dp"
+        android:textColor="@color/white2"
+        android:background="@drawable/button_bg_lightgray"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/button_best_scores"
+        style="@style/Widget.AppCompat.Button.Colored"
+        />
+
+
+
+</RelativeLayout>

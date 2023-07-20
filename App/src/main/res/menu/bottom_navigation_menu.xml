@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/Home" />
+
+    <item android:title="@string/Games"
+        android:id="@+id/game"
+        android:icon="@drawable/ic_outline_games_24"/>
+
+    <item android:title="Videos"
+        android:id="@+id/video"
+        android:icon="@drawable/ic_baseline_videocam_24"/>
+
+    <item android:title="@string/Speak_up"
+        android:id="@+id/speaking"
+        android:icon="@drawable/microphonee"/>
+
+    <item
+        android:id="@+id/logout_final"
+        android:icon="@drawable/ic_baseline_login_24"
+        android:title="More"/>
+</menu>

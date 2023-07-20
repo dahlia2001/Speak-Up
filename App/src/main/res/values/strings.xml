@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">SPEAKUP</string>
+    <string name="speak" translatable="false">SPEAK</string>
+    <string name="up" translatable="false">UP</string>
+    <string name="speakup" translatable="false">SpeakUp</string>
+    <string name="an_application_for_children" translatable="false">An application for children</string>
+    <string name="SPEAKUP" translatable="false">SPEAKUP</string>
+    <string name="mobile_number" translatable="false">Mobile number</string>
+    <string name="more" translatable="false">More</string>
+    <string name="Stats" translatable="false">Stats</string>
+    <string name="Speak_up" translatable="false">SpeakUp</string>
+    <string name="Games" translatable="false">Games</string>
+    <string name="Home" translatable="false">Home</string>
+    <string name="today_s_workout" translatable="false">TODAY\'S WORKOUT</string>
+    <string name="start_workout" translatable="false">START WORKOUT</string>
+    <string name="title_activity_play_game">Memory Match</string>
+    <string name="numberOfTries">Tries: </string>
+    <string name="title_activity_add_high_score">Save Score</string>
+    <string name="title_activity_view_scores">Scores</string>
+    <string name="save_score">Save Score</string>
+    <string name="your_score_was">Number of tries:</string>
+    <string name="validation_msg_player_name_required">You must type your name</string>
+    <string name="add_score_ask_player_name">What\'s your name?</string>
+    <string name="button_best_scores">Best Scores</string>
+    <string name="button_game_type_hard">Hard</string>
+    <string name="button_game_type_medium">Medium</string>
+    <string name="button_game_type_easy">Easy</string>
+    <string name="button_game_type_no_brain">No Brain</string>
+    <string name="msg_choose_game_type">Choose the level:</string>
+    <string name="msg_choose_graphics">Choose the graphics:</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <string name="home" translatable="false">Home</string>
+    <string name="drawing" translatable="false">Drawing</string>
+    <string name="my_work" translatable="false">My Work</string>
+
+    <string name="isRTL" translatable="false">false</string>
+
+    <string name="saveDataPath" translatable="false">Drawing</string>
+
+    <string name="share_to" translatable="false">Share to</string>
+    <string name="share" translatable="false">Share</string>
+    <string name="save" translatable="false">Save</string>
+    <string name="loading" translatable="false">Loading....</string>
+    <string name="delete" translatable="false">Delete</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="select" translatable="false">Select</string>
+    <string name="chose_color" translatable="false">Chose Color</string>
+    <string name="Please_click_BACK_again_to_exit" translatable="false">Please click back again to exit</string>
+
+    <string name="noData" translatable="false">No data found</string>
+    <string name="wrong" translatable="false">Something went to wrong please try again later</string>
+
+    <string name="yes" translatable="false">Yes</string>
+    <string name="no" translatable="false">No</string>
+    <string name="delete_message" translatable="false">Are u sure you want to delete this item</string>
+    <string-array name="graphics">
+        <item>Animals</item>
+        <item>Drawings</item>
+        <item>Bugs</item>
+    </string-array>
+</resources>

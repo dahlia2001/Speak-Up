@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange1"
+    android:visibility="visible"
+    tools:context=".speakingactivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imagespeak"
+        android:layout_width="match_parent"
+        android:layout_height="315dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="90sp"
+        android:contentDescription="Image for child to identify"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textspeak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:gravity="center"
+        android:text="Tap mic to speak"
+        android:textAppearance="@android:style/TextAppearance.Material.Body2"
+        android:textColor="@color/white2"
+        android:textSize="25sp"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/mbtn"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60sp"
+        android:background="@drawable/roundcorners"
+        android:src="@drawable/micoff" />
+
+</LinearLayout>
